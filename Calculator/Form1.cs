@@ -16,5 +16,14 @@ namespace Calculator
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (No1.Text != "" && No2.Text != "")
+            {
+                double a = double.Parse(No1.Text);
+                double b = double.Parse(No2.Text);
+            }
+        }
+
     }
 }
